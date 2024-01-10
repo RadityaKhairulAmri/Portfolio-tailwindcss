@@ -1160,6 +1160,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html {
+  scroll-padding-top: 10px;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }

@@ -6,26 +6,39 @@
     <title>portfolio Raditya</title>
     <link href="dist/output.css" rel="stylesheet" />
     <script>
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
       } else {
-        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.remove("dark");
       }
     </script>
   </head>
   <body>
     <!-- Header Start -->
-    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
+    <header
+      class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
       <div class="container">
         <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <a href="#home" class="block py-6 text-lg font-bold text-primary">RADITYA KHAIRUL AMRI</a>
+            <a href="#home" class="block py-6 text-lg font-bold text-primary"
+              >RADITYA KHAIRUL AMRI</a>
           </div>
           <div class="flex items-center px-4">
-            <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
-              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute right-4 block lg:hidden">
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
             </button>
 
             <nav
@@ -65,8 +78,10 @@
                     <span class="mr-2 text-sm text-slate-500">light</span>
                     <input type="checkbox" class="hidden" id="dark-toggle" />
                     <label for="dark-toggle">
-                      <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
-                        <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                      <div
+                        class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                        <div
+                          class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
                       </div>
                     </label>
                     <span class="ml-2 text-sm text-slate-500">dark</span>
@@ -79,7 +94,6 @@
       </div>
     </header>
 
-
     <!-- Header End -->
 
     <!-- hero section start -->
@@ -91,8 +105,7 @@
               Halo 👋, Perkenalkan saya
               <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Raditya Khairul Amri</span>
             </h1>
-            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-              Web Developer & <span class="text-dark">Turu</span>
+            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Web Developer & <span class="text-dark">Turu</span>
             </h2>
 
             <p class="font-medium text-secondary mb-10 leading-relaxed">Membuat website
@@ -109,8 +122,7 @@
               <img
                 src="src/img/Raditya.png"
                 alt="Raditya Khairul Amri"
-                class="max-w-full mx-auto"/>
-              <span
+                class="max-w-full mx-auto"/><span
                 class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                 <svg
                   width="400"
@@ -137,9 +149,11 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
-            <h4 class="font-bold uppercase text-primary text-lg mb-3">Aboute Me
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Aboute Me
             </h4>
-            <h2 class="font-bold text-dark text-3xl mb-5 max-w-xd lg:text-4xl"> Perkenalkan, Saya Raditya Khairul Amri!
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-xd lg:text-4xl">
+              Perkenalkan, Saya Raditya Khairul Amri!
             </h2>
             <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
               Saya mahasiswa Informatika di Universitas Teknologi Yogyakarta,
@@ -150,9 +164,7 @@
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
-            <h3
-              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">
-              Mari mabar saya Wan-Wan
+            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari mabar saya Wan-Wan
             </h3>
             <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
               Lorem ipsum bubur sumsum es doger marimas ketoprak bakso mie ayam
@@ -226,7 +238,8 @@
                   xmlns="http://www.w3.org/2000/svg">
                   <title>Discord</title>
                   <path
-                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"
+                  />
                 </svg>
               </a>
             </div>
@@ -308,99 +321,128 @@
 
     <!-- Portfolio End -->
 
-
     <!-- tools section start -->
     <section id="tools" class="pt-36 pb-16 bg-gray-800 text-white">
       <div class="max-w-7xl mx-auto">
         <h2 class="text-4xl font-bold mb-8">Tools</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 owl-carousel">
-          
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 owl-carousel">
           <!-- VSCODE -->
           <a href="https://code.visualstudio.com/" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/vscode.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/vscode.png"
+                  alt="VSCODE"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">VSCODE</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- GITHUB -->
           <a href="https://github.com/ry2211" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/github.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/github.png"
+                  alt="GITHUB"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">GITHUB</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- FIGMA -->
-          <a href="link-to-figma" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+          <a href="https://www.figma.com/" target="_blank">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/figma.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/figma.png"
+                  alt="FIGMA"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">FIGMA</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- W3S -->
           <a href="https://www.w3schools.com/" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/w3s.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/w3s.png"
+                  alt="W3S"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">W3S</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- TAILWINDCSS -->
           <a href="https://tailwindcss.com/" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/tailwindcss.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/tailwindcss.png"
+                  alt="TAILWINDCSS"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">TAILWINDCSS</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- NPM -->
           <a href="https://www.npmjs.com/" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/npm.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/npm.png"
+                  alt="NPM"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">NPM</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- NODE.JS -->
           <a href="https://nodejs.org/en" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/nodejs.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/nodejs.png"
+                  alt="NODE.JS"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">NODE.JS</h1>
               </div>
             </div>
           </a>
-    
+
           <!-- MYSQL -->
           <a href="https://locallhost.me/phpmyadmin" target="_blank">
-            <div class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
+            <div
+              class="bg-gray-900 rounded-lg p-8 text-center transition-transform hover:scale-105">
               <div class="box">
-                <img src="/src/img/phpmyadmin.png" alt="" class="h-40 w-40 mx-auto mb-4">
+                <img
+                  src="/src/img/phpmyadmin.png"
+                  alt="PHPMYADMIN"
+                  class="h-40 w-40 mx-auto mb-4"/>
                 <h1 class="text-lg font-semibold">PHPMYADMIN</h1>
               </div>
             </div>
           </a>
-    
         </div>
       </div>
     </section>
-    
-    <!-- tools section start End-->
 
+    <!-- tools section start End-->
 
     <!-- Contact Section Start -->
     <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
@@ -423,16 +465,14 @@
         <form>
           <div class="w-full lg:mx-auto lg:w-2/3">
             <div class="mb-8 w-full px-4">
-              <label for="name" class="text-base font-bold text-primary"
-                >Nama</label>
+              <label for="name" class="text-base font-bold text-primary">Nama</label>
               <input
                 type="text"
                 id="name"
                 class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"/>
             </div>
             <div class="mb-8 w-full px-4">
-              <label for="email" class="text-base font-bold text-primary"
-                >Email</label>
+              <label for="email" class="text-base font-bold text-primary">Email</label>
               <input
                 type="email"
                 id="email"
@@ -467,8 +507,7 @@
             <p>Yogyakarta</p>
           </div>
           <div class="mb-12 w-full px-4 md:w-1/3">
-            <h3 class="mb-5 text-xl font-semibold text-white">
-              Kategori Tulisan
+            <h3 class="mb-5 text-xl font-semibold text-white"> Kategori Tulisan
             </h3>
             <ul class="text-slate-300">
               <li>
@@ -484,8 +523,7 @@
               <li>
                 <a
                   href="#"
-                  class="mb-3 inline-block text-base hover:text-primary"
-                  >Simple</a>
+                  class="mb-3 inline-block text-base hover:text-primary">Simple</a>
               </li>
             </ul>
           </div>
@@ -609,7 +647,9 @@
               href="https://instagram.com/rya_khairul"
               target="_blank"
               class="font-bold text-primary"
-              >Raditya Khairul Amri</a>, menggunakan<a href="https://tailwindcss.com" target="_blank"
+              >Raditya Khairul Amri</a>, menggunakan<a
+              href="https://tailwindcss.com"
+              target="_blank"
               class="font-bold text-sky-500">Tailwind CSS</a>.
           </p>
         </div>
@@ -621,13 +661,11 @@
     <a
       href="#home"
       class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse"
-      id="to-top"
-    >
+      id="to-top">
       <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
     </a>
     <!-- Back to top End -->
 
-    
     <script src="dist/js/script.js"></script>
   </body>
 </html>
